@@ -16,9 +16,16 @@
 
 \chordmode {                                                                                                                                 
   \mark \default                                                                                                                              
-  bes1:sus4 | bes:sus4 | bes:sus4 | bes:sus4 \bar "||"                                                                                       
-  aes | ees | f | f                                                                                                                          
+  bes1:sus4 | bes:sus4 | bes:sus4 | bes:sus4 \bar "||"   
+
+  \mark \default   
+  aes2. ees8. f16 | f2. ees8. aes16 |  aes2. ees8. f16 | f2. ees4 \bar "||"
+  
+  \mark \default
+  g1 | g1 \bar "||"
+
+  \mark \default
+   d1:m | d1:m  | d1:m  | d1:m  |
+
 }
-}                                                                                                                                            
-                                                                                                                                             
-     
+}
