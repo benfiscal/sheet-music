@@ -1,7 +1,7 @@
 %LilyBin                                                                                                                                      
 \header {                                                                                                                                    
   title = "Du och jag - 2019-10-18"                                                                                                                  
-  composer = "C. Öhrman"                                                                                                                     
+  composer = "DGYHU"                                                                                                                     
 }                                                                                                                                            
 \version "2.18.2"                                                                                                                            
                                                                                                                                              
@@ -15,10 +15,11 @@
 
 
 \chordmode {                                                                                                                                 
-  \mark "Intro"                                                                                                                              
+  \mark "Intro A"                                                                                                                              
   \repeat volta 2 
   {bes1:sus4 | bes:sus4 | bes:sus4 | bes:sus4 }
 
+\mark "Intro B"
   \repeat volta 2 {aes1 | aes2 aes8~bes4 f8 | f1 | }
   \alternative{
   {f2 f8 ees4 aes8 }
@@ -26,7 +27,7 @@
   } 
   
   %aes1. ees4. f8 | f1. ees2 \bar "||"
-  
+  \mark "Intro C"
   g1:m6 | g1:m6 | g1:m6 | g1:m6 |
 
   \mark "Vers 1"
