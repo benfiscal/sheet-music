@@ -1,6 +1,6 @@
 %LilyBin                                                                                                                                      
 \header {                                                                                                                                    
-  title = "Vi - 2019-10-15"                                                                                                                  
+  title = "Du och jag - 2019-10-18"                                                                                                                  
   composer = "C. Öhrman"                                                                                                                     
 }                                                                                                                                            
 \version "2.18.2"                                                                                                                            
@@ -16,18 +16,29 @@
 
 \chordmode {                                                                                                                                 
   \mark "Intro"                                                                                                                              
-  bes1:sus4 | bes:sus4 | bes:sus4 | bes:sus4 \bar "||"   
-   
-  aes2. ees8. f16 | f2. ees8. aes16 |  aes2. ees8. f16 | f2. ees4 \bar "||"
+  \repeat volta 2 
+  {bes1:sus4 | bes:sus4 | bes:sus4 | bes:sus4 }
+
+  \repeat volta 2 {aes1 | aes2 aes8~bes4 f8 | f1 | }
+  \alternative{
+  {f2 f8 ees4 aes8 }
+  {f2 ees2 }
+  } 
   
-  g1:m6 | g1:m6 
+  %aes1. ees4. f8 | f1. ees2 \bar "||"
+  
+  g1:m6 | g1:m6 | g1:m6 | g1:m6 |
 
   \mark "Vers 1"
   \repeat volta 2
    {d1:m | d1:m  | d1:m  | d1:m  }
 
+  \mark "Vers 2"
+  \repeat volta 2
+   {d1:m | d1:m  | d1:m  | d1:m  }
+
    \mark "Refr"
-   bes1:sus4 | bes2.:sus4 g4:m \break
+   bes1:sus4 | bes1:sus4 | bes1:sus4 | g1:m |
 
 \mark "Vers 2"
   \repeat volta 2
