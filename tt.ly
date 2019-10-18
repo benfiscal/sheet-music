@@ -81,13 +81,24 @@
         \vspace #1
 
         \line {Vers 2}
-        \line { Ja trodde att du skulle hitta alla svaren, }
+        \line { Jag trodde att du skulle hitta alla svaren, }
         \line { Jag vet du ligger i, du söker för ditt liv, men tiden rinner ut! }
         \vspace #1
 
         \line {Mellanspel}
-        \line { Kan du orka ända fram, när du vet hur du vill ha det? }
-        \line { men du sa bara; "Mer, mer mer mer mer mer, ge mig mera nu!" }
+        \line { Kan du ta dig ända fram, på färden över havet?}
+        \line { Orken smiter ur din famn, jag ångrar att jag sa det.  }
+        \vspace #1
+
+
+        \line {Mellanspel}
+        \line { Vis av ord och blodad tand, du vet hur du vill ha det.}
+        \line { färden gick från stad till land, du fann dig ro i ...  }
+        \vspace #1
+
+        \line {Vers 3}
+        \line { Jag kommer ihåg, hur vi slicka trottoaren }
+        \line { Hur våra bara ben, mötte asfalten av sten, mina ärr dom sitter i... }
         \vspace #1
 
       }
