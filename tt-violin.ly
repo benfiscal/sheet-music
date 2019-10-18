@@ -10,17 +10,23 @@ makePercent =
                'length (ly:music-length note)))
 
 \score {
+
   \relative c'' {
-   \mark \default
-    d8 bes d,16 es f bes  d8 bes d,16 es f bes 
-    \makePercent s1
-    d16 bes d, ees     d'16 bes d, ees   d'16 bes d, ees  d'16 bes d, ees
-    \makePercent s1  \break 
+   \time 4/4
+    \key bes \major
 
-    \mark \default
-    c'8 c c c c c c c
+\mark "Intro A"
+  \set countPercentRepeats = ##t
+  \repeat percent 4 { bes4 f d8 es f d' }
 
 
+  \repeat percent 4 {  d8 bes d, ees   d'8 bes d, ees } \bar "||"
+
+\mark "Intro B"
+    \repeat percent 4 { c''4 c c c  | c c c8 c8 c8 c8 } \bar "||"
+    
+\mark "Intro C"
+  \repeat percent 4 { bes4 f d8 es f d' }
   }
 
   \layout {}
