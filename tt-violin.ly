@@ -1,6 +1,6 @@
 \header {
-  title = "Untitled"
-  composer = "Composer"
+  title = "Du och jag - 2019-10-18"
+  composer = "DGYHU"
 }
 
 makePercent =
