@@ -16,7 +16,7 @@
   
   %aes1. ees4. f8 | f1. ees2 \bar "||"
   \mark "Intro"
-  d1:m | d1:m | d1:m | d1:m |
+   d1:m | d1:m | d1:m | d1:m 
 
   \mark "Vers 1"
   \repeat volta 2
@@ -27,15 +27,12 @@
    {d1:m | d1:m  | d1:m  | d1:m  }
 
 \mark "Mellanspel"
-  \repeat volta 2 { bes2 c2:m | g2:m ees2 }
-   \alternative{
-   { bes2 c2:m | g1:m  }
-  { g1:m   | f1 }}
-   bes1:sus4 | bes1:sus4 | bes1:sus4 | bes1:sus4 |
-
+  \repeat volta 2  
+  { bes2:m c2:m | g2:m ees2 | bes2 c2:m | g1:m }
+  
 \mark "Vers 3"
   \repeat volta 2
-   {d1:m | d1:m  | d1:m  | d1:m  }
+   {d1:m | d1:m  | d1:m  | d1:m  } \break 
 
 \mark "Vers 4"
   \repeat volta 2
@@ -91,8 +88,8 @@
         \vspace #1
 
         \line {Mellanspel}
-        \line { Kan du orka ända fram, på färden du begav dig?}
-        \line { Vis av ord och blodad tand, nu vet jag hur du har det.  }
+        \line { Kan jag orka ända fram, på färden jag begav mig?}
+        \line { Vis av ord och blodad tand, nu vet du hur jag har det.  }
         \vspace #1
 
       }
