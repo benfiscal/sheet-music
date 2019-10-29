@@ -1,6 +1,6 @@
 %LilyBin                                                                                                                                      
 \header {                                                                                                                                    
-  title = "Du och jag - 2019-10-18"                                                                                                                  
+  title = "Du och jag - 2019-10-29"                                                                                                                  
   composer = "DGYHU"                                                                                                                     
 }                                                                                                                                            
 \version "2.18.2"                                                                                                                            
@@ -13,20 +13,10 @@
 
 
 \chordmode {                                                                                                                                 
-  \mark "Intro A"                                                                                                                              
-  \repeat volta 2 
-  {bes1:sus4 | bes:sus4 | bes:sus4 | bes:sus4 }
-
-\mark "Intro B"
-  \repeat volta 2 {aes1 | aes2 aes8~bes4 f8 | f1 | }
-  \alternative{
-  {f2 f8 ees4 aes8 }
-  {f2 ees2 }
-  } 
   
   %aes1. ees4. f8 | f1. ees2 \bar "||"
-  \mark "Intro C"
-  g1:m6 | g1:m6 | g1:m6 | g1:m6 |
+  \mark "Intro"
+  d1:m | d1:m | d1:m | d1:m |
 
   \mark "Vers 1"
   \repeat volta 2
@@ -86,19 +76,23 @@
         \vspace #1
 
         \line {Mellanspel}
-        \line { Kan du ta dig ända fram, på färden över havet?}
-        \line { Orken smiter ur din famn, jag ångrar att jag sa det.  }
-        \vspace #1
-
-
-        \line {Mellanspel}
-        \line { Vis av ord och blodad tand, du vet hur du vill ha det.}
-        \line { färden gick från stad till land, du fann dig ro i ...  }
+        \line { Kan du orka ända fram, på färden du begav dig?}
+        \line { Vis av ord och blodad tand, nu vet jag hur du har det.  }
         \vspace #1
 
         \line {Vers 3}
-        \line { Jag kommer ihåg, hur vi slicka trottoaren }
-        \line { Hur våra bara ben, mötte asfalten av sten, mina ärr dom sitter i... }
+        \line { Jag kommer ihåg, hur du kasta allt jag gav dig}
+        \line { Men alla mina fel, du ristade i sten, en sten du håller i. }
+        \vspace #1
+
+        \line {Vers 4}
+        \line { Jag kommer ihåg, hur jag ertappa dig i baren }
+        \line { Min vän du var ett svin, jag låna dig mitt liv, men nu så är det slut! }
+        \vspace #1
+
+        \line {Mellanspel}
+        \line { Kan du orka ända fram, på färden du begav dig?}
+        \line { Vis av ord och blodad tand, nu vet jag hur du har det.  }
         \vspace #1
 
       }
