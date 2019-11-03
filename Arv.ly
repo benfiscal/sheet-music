@@ -1,15 +1,16 @@
 %LilyBin                                                                                                                                      
 \header {                                                                                                                                    
-  title = "Du och jag - 2019-10-29"                                                                                                                  
-  composer = "DGYHU"                                                                                                                     
+  title = "Vem ska ärva dig? -  2019-11-03"                                                                                                                  
+  composer = "Don't Get Your Hopes Up"                                                                                                                     
 }                                                                                                                                            
 \version "2.18.2"                                                                                                                            
                                                                                                                                              
 \score {                                                                                                                                     
+\midi{}
+\layout{}
  \new ChordNames \with {                                                                                                                     
   \override BarLine.bar-extent = #'(-2 . 2)                                                                                                  
   \consists "Bar_engraver" }                                                                                                                                            
-
 
 
 \chordmode {                                                                                                                                 
