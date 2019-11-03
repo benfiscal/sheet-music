@@ -25,7 +25,7 @@
     {c1 | c1 | f1 | f1  }
 
   \repeat volta 2
-   {g1 | a1:m  | f1  | f1  }
+   {g1 | a1:m  | f1  | f1  } \break
 
 \mark "Refräng"
   \repeat volta 2  
@@ -36,25 +36,34 @@
     {c1 | c1 | f1 | f1  }
 
   \repeat volta 2
+   {g1 | a1:m  | f1  | f1  } \break
+
+\mark "M.spel"
+\repeat volta 2
+   {f1 | f1  | g1:6  | g1:6  | }
+  
+   {d1:m7+ | d1:m7+  | e1:m7+  | e1:m7+  | }
+   {f1 | f1  | g1:6  | g1:6  | }
+\break
+\mark "Refräng"
+  \repeat volta 2  
+  {c1 | c1 | f1 | f1  }
+
+  \mark "Vers 3"
+  \repeat volta 2
+    {c1 | c1 | f1 | f1  }
+
+  \repeat volta 2
    {g1 | a1:m  | f1  | f1  }
+\break
+\mark "Refräng"
+  \repeat volta 2  
+  {c1 | c1 | f1 | f1  }
 
-\mark "Mellanspel"
-   {f1 | f1  | g1  | g1  | }
-   {f1 | f1  | g1  | g1  | }
+\repeat volta 2  
+  {c1 | c1 | f1 | f1  }
 
-
-\mark "Mellanspel"
-  \repeat volta 2 { bes2 c2:m | g2:m ees2 }
-   \alternative{
-   { bes2 c2:m | g1:m  }
-  { g1:m   | f1 \bar "||" }}
-\mark "Outro"
-   bes1:sus4 | bes1:sus4 | bes1:sus4 | bes1:sus4 |
-
-   \repeat volta 4 {aes1 | aes2 aes8~bes4 f8 | f1 | }
-  \alternative{
-  {f2 f8 ees4 aes8 }
-  {f1 } }   
+   
 
 }
 
