@@ -16,27 +16,30 @@
   
   %aes1. ees4. f8 | f1. ees2 \bar "||"
   \mark "Intro"
-   d1:m | d1:m | d1:m | d1:m 
+  \repeat volta 2
+   {c1 | c1 | f1 | f1  }
 
   \mark "Vers 1"
   \repeat volta 2
-   {d1:m | d1:m  | d1:m  | d1:m  }
+    {c1 | c1 | f1 | f1  }
+
+  \repeat volta 2
+   {g1 | a1:m  | f1  | f1  }
+
+\mark "Refräng"
+  \repeat volta 2  
+  {c1 | c1 | f1 | f1  }
 
   \mark "Vers 2"
   \repeat volta 2
-   {d1:m | d1:m  | d1:m  | d1:m  }
+    {c1 | c1 | f1 | f1  }
+
+  \repeat volta 2
+   {g1 | a1:m  | f1  | f1  }
 
 \mark "Mellanspel"
-  \repeat volta 2  
-  { bes2:m c2:m | g2:m ees2 | bes2 c2:m | g1:m }
-  
-\mark "Vers 3"
-  \repeat volta 2
-   {d1:m | d1:m  | d1:m  | d1:m  } \break 
-
-\mark "Vers 4"
-  \repeat volta 2
-   {d1:m | d1:m  | d1:m  | d1:m  }
+   {f1 | f1  | g1  | g1  | }
+   {f1 | f1  | g1  | g1  | }
 
 
 \mark "Mellanspel"
@@ -63,35 +66,32 @@
     \column {
       \left-align {
         \line {Vers 1}
-        \line { Jag trodde att du skulle fatta när jag bad dig, }
-        \line { men du sa bara; "Mer, mer mer mer mer mer, ge mig mera nu!" }
+        \line { När man är på toppen, kan man bara komma ner.}
+        \line { När du är där oppe, kan du se hur långt du ser? }
+        \line { Vad ser du uti ditt hjärta? Är det mörkt och är det kallt? }
+        \line { Blicken mote horisonten, visar den dill fall? }
         \vspace #1
 
         \line {Vers 2}
-        \line { Jag trodde att du skulle hitta alla svaren, }
-        \line { Jag vet du ligger i, du söker för ditt liv, men tiden rinner ut! }
+        \line { När du har gått bort dig, en ensam tom gestalt.}
+        \line { När man är på botten, kan man inte klara allt. }
+        \line { Jag vet att vi kan förändras, när klockan - fem i tolv. }
+        \line { nyckeln finns i ditt inre, den finns inom räckhåll. }
         \vspace #1
 
         \line {Mellanspel}
-        \line { Kan du orka ända fram, på färden du begav dig?}
-        \line { Vis av ord och blodad tand, nu vet jag hur du har det.  }
+        \line { Vi kan var förlorade, jag hjälper dig att se.}
+        \line { fast det kan se dystert ut, så har vi mer att ge...  }
+        \line { till alla som ska ärva oss, i nedstigande led... }  
+        \line { har du din förpliktelse, ta blott vad jorden ger!}  
         \vspace #1
 
         \line {Vers 3}
-        \line { Jag kommer ihåg, hur du kasta allt jag gav dig}
-        \line { Men alla mina fel, du ristade i sten, en sten du håller i. }
+        \line { Du har alltid bråttom, du vet att det är sent.}
+        \line { Du har så det räcker, men mycket vill ha mer. }
+        \line { Att sträva mot alla gränser är människans natur. }
+        \line { Det gäller att vara lycklig, men du vet inte hur, vem vet vart vi ska? }
         \vspace #1
-
-        \line {Vers 4}
-        \line { Jag kommer ihåg, hur jag ertappa dig i baren }
-        \line { Min vän du var ett svin, jag låna dig mitt liv, men nu så är det slut! }
-        \vspace #1
-
-        \line {Mellanspel}
-        \line { Kan jag orka ända fram, på färden jag begav mig?}
-        \line { Vis av ord och blodad tand, nu vet du hur jag har det.  }
-        \vspace #1
-
       }
     }
   }
