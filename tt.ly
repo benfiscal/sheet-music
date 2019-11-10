@@ -40,10 +40,12 @@
 
 
 \mark "Mellanspel"
-  \repeat volta 2 { bes2 c2:m | g2:m ees2 }
+  \repeat volta 2 { bes1 | c1:m | g1:m | ees1 }
    \alternative{
-   { bes2 c2:m | g1:m  }
-  { g1:m   | f1 \bar "||" }}
+   { bes1 | c1:m  g1:m | g1:m }
+  { g1:m  | g1:m | f1 | f1 \bar "||" }}
+
+
 \mark "Outro"
    bes1:sus4 | bes1:sus4 | bes1:sus4 | bes1:sus4 |
 
