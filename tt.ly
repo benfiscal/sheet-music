@@ -1,6 +1,6 @@
 %LilyBin                                                                                                                                      
 \header {                                                                                                                                    
-  title = "Du och jag - 2020-01-23"                                                                                                                  
+  title = "Du och jag - 2020-01-24"                                                                                                                  
   composer = "DGYHU"                                                                                                                     
 }                                                                                                                                            
 \version "2.18.2"                                                                                                                            
