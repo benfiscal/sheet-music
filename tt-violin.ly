@@ -54,12 +54,22 @@ makePercent =
         
 
 
-        \line {Refräng}
+        \line {Refrängtext}
         \line { Kan du orka ända fram, på resan du begav dig?}
         \line { Vis av ord och blodad tand, nu vet jag hur du har det.  }
         \vspace #1
 
-
+        \line {Form:}
+        \line { Intro}
+        \line { Vers 1 }
+        \line { Vers 2 }
+        \line { Refräng }
+        \line { Vers 3 }
+        \line { Vers 4 }
+        \line { Mellanspel }
+        \line { Vers 5 }
+        \line { Vers 6 }                                                
+        \vspace #1
 
       }
     }
