@@ -77,7 +77,7 @@
         \vspace #1
 
         \line {Refräng}
-        \line { Kan du orka ända fram, på färden du begav dig?}
+        \line { Kan du orka ända fram, på resan du begav dig?}
         \line { Vis av ord och blodad tand, nu vet jag hur du har det.  }
         \vspace #1
 
