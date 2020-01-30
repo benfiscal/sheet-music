@@ -1,6 +1,6 @@
 %LilyBin                                                                                                                                      
 \header {                                                                                                                                    
-  title = "Du och jag - 2020-01-24"                                                                                                                  
+  title = "Du och jag - 2020-01-30"                                                                                                                  
   composer = "DGYHU"                                                                                                                     
 }                                                                                                                                            
 \version "2.18.2"                                                                                                                            
@@ -28,7 +28,7 @@
 
 \mark "Refräng"
   \repeat volta 2  
-  { bes1:m | c1:m | g1:m | ees1 | bes1 | c1:m | g1:m | g1:m }
+  { bes1 | c1:m | g1:m | ees1 | bes1 | c1:m | g1:m | g1:m }
   
 \mark "Vers 3"
   \repeat volta 2
@@ -64,16 +64,15 @@
   \fill-line {
     \column {
       \left-align {
-        
-        \line {Vers 1}
-        \line {Jag kommer ihåg, hur vi slicka trottoaren}
-        \line {hur våra bara ben mötte asfalten av sten, mina ärr dom sitter i.}
-        \vspace #1
 
-        
-        \line {Vers 2}
+        \line {Vers 1}
         \line { Jag trodde att du skulle fatta när jag bad dig, }
         \line { men du sa bara; "Mer, mer mer mer mer mer, ge mig mera nu!" }
+        \vspace #1
+
+        \line {Vers 2}
+        \line {Jag kommer ihåg, hur vi slicka trottoaren}
+        \line {hur våra bara ben mötte asfalten av sten, mina ärr dom sitter i.}
         \vspace #1
 
         \line {Refräng}
@@ -92,15 +91,14 @@
         \vspace #1
 
         \line {Vers 5}
-        \line { Jag kommer ihåg, hur jag ertappa dig i baren }
-        \line { Min vän du var ett svin, jag låna dig mitt liv, men nu så är det slut! }
-        \vspace #1
-
-        \line {Vers 6}
         \line { Jag trodde att du skulle ångra  dina val men, }
         \line { Du gräver i ditt sår, efter alla våra år, efter livet det som var. }
         \vspace #1
 
+        \line {Vers 6}
+        \line { Jag kommer ihåg, hur jag ertappa dig i baren }
+        \line { Min vän du var ett svin, jag låna dig mitt liv, men nu så är det slut! }
+        \vspace #1
 
       }
     }
