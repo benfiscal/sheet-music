@@ -27,59 +27,39 @@
     \repeat volta 4
    {c1 | f1 | g1 | }
   \alternative{
-    { g  }
+    { g \bar "|." }
    }
-  
+  \break
   \mark "Refräng"
-  \repeat volta 2
-   {c1 | c1 | f1 | }
-  \alternative{
-   { f2 g  }
-   { f2 a:m  }
-   }
+   c1 | f | e:m | g | a:m | e:m | f \bar "||"
+   c1 | a:m | e:m | g | a:m | e:m | f   
 
   \mark "Vers 2"
-  \repeat volta 2
-    {c1 | c1 | f1 | f1  }
-
-  \repeat volta 2
-   {g1 | a1:m  | f1  | f1  } \break
-
-\mark "M.spel"
-  {g1 | g1 | a:m | a:m }
-   {f1 | f1  | g1:6  | g1:6  | }
-  
-   {d1:m7+ | d1:m7+  | e1:m7+  | e1:m7+  | }
-   {f1 | f1  | g1:sus4  | g1:6  | }
-\break
-
-  \mark "Refräng"
-  \repeat volta 2
-   {c1 | c1 | f1 | }
+    \repeat volta 4
+   {c1 | f1 | g1 | }
   \alternative{
-   { f2 g  }
-   { f2 a:m  }
+    { g \bar "|." }
    }
 
-  \mark "Vers 3"
-  \repeat volta 2
-    {c1 | c1 | f1 | f1  }
+  \mark "Refräng"
+   c1 | f | e:m | g | a:m | e:m | f \bar "||"
+   c1 | a:m | e:m | g | a:m | e:m | f   | g2 aes \bar "||"
 
-  \repeat volta 2
-   {g1 | a1:m  | f1  | f1  }
+\break
+ \mark "Stick"
+  \repeat volta 4
+   {ees1 | f1 | aes | }
+  \alternative{
+   { aes}
+   }
 
  \mark "Outro"
   \repeat volta 4
-   {c1 | c1 | f1 }
+   {c1 | f1 | g1 | }
   \alternative{
-   { f2 g}
+    { g  }
    }
-
-{ \bar ":|." c1 }
 }
-
-
-
 }
 
 \markup {
