@@ -59,7 +59,6 @@
   \alternative{
     { g  \bar "|."}
    }
-
 }
 }
 
